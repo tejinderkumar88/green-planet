@@ -1,0 +1,760 @@
+a, a:hover, a:focus {
+	text-decoration: none;
+}
+
+button:focus {
+	outline:none;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.top-strip-wrap {
+    background-color: #6ab43e;
+    padding: 7px 0;
+}
+
+ul, li, ol {
+	margin-bottom: 0;
+}
+
+.info-ul .d-inline-block {
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    margin: 0 20px 0 0;
+}
+
+.nav-item a:hover::before {
+    color: #2f2104; 
+    text-shadow: 10px 0 #2f2104, -10px 0 #2f2104;
+    transition: all 0.6s ease 0s;
+}
+
+.nav-item a:hover {
+	color: #6ab43e;
+	transition: all 0.6s ease 0s;
+}
+
+.nav-item.active a:hover {
+	color: #6ab43e;
+	transition: all 0.6s ease 0s;
+}
+
+.nav-item a::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: transparent;
+    content: "•";
+    text-shadow: transparent 0px 0px;
+    font-size: 1.2em;
+    transform: translateX(-50%);
+    pointer-events: none;
+    transition: text-shadow 0.3s ease 0s, color 0.3s ease 0s;
+}
+
+.info-ul .d-inline-block::after {
+    position: absolute;
+    right: 0;
+    content: "/";
+    transform: rotate(130deg);
+    top: 0;
+}
+
+.info-ul .d-inline-block:last-child::after {
+	display: none;
+}
+
+.navbar-toggler {
+    background-color: #6ab43e;
+    padding: 8px 11px;
+    color: #fff;
+}
+
+.info-ul a.title {
+    margin: 0 20px 0 10px;
+    color:#fff;
+}
+
+.social-ul li a {
+    font-size: 12px;
+    margin: 0 0 0 15px;
+    color: #fff;
+}
+
+.banner-section i {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: #fff;
+    color: #6ab43e;
+    line-height: 3.2;
+    transition: all 0.6s ease 0s;
+}
+
+.btn.btn-custom:hover,
+.btn.btn-custom:focus {
+	transition: all 0.6s ease 0s;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+}
+
+button.btn.btn-custom.upload-logo-btn {
+    position: absolute;
+    top: 31px;
+    right: 0px;
+    margin: 0;
+    padding: 9.5px 10px;
+    background-color: #f4f4f4;
+    border-radius: 0;
+    border:1px solid #dfdfdf;
+}
+
+#title.form-control[readonly] {
+    width: 67%;
+}
+
+span.logo-name-in-it {
+    background-color: #fff;
+    min-height: 42px;
+    width: 68%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 31px;
+    border: 1px solid #dfdfdf;
+}
+
+.file-upload {
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    width: 100px;
+    z-index: 9;
+    top:31px;
+}
+
+.banner-section i:hover {
+    background-color: #6ab43e;
+    color: #fff;
+    opacity: 1;
+    transition: all 0.6s ease 0s;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+}
+
+.navbar-brand .img-responsive {
+    width: 120px;
+}
+
+.banner-bg-img {
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner-bg-img p {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin:0;
+}
+
+.banner-bg-img h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 40px;
+    margin:0;
+}
+
+.banner-bg-img h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.btn.btn-custom {
+    padding: 11px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin:0 25px 0 0;
+    transition: all 0.6s ease 0s;
+}
+
+.btn-div .btn.btn-custom:last-child {
+	margin:0 0px 0 0;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin:0;
+}
+
+.green-text {
+    color: #6ab43e;
+}
+
+.active .nav-link {
+    color: #6ab43e;
+}
+
+.section-title {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mission-sec p.titl-tagline {
+    margin: 45px 0;
+}
+
+.inr-img-wrap a {
+    font-size: 22px;
+    color: #2f2104;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+    display: inline-block;
+}
+
+.inr-img-wrap .dvdr {
+    width: 60px;
+    height: 2px;
+    background-color: #7fbd5e;
+    margin: 15px 0 20px 0;
+}
+
+.post-title-para {
+    font-size: 15px;
+    color: #3c2901;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 0 0 15px 0px;
+}
+
+.section-title.mission-sub-section h2,
+.tab-img-left h2,
+.mission-page-content h2 {
+    font-size: 22px;
+    text-transform: none;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: #534b3c;
+}
+
+.img-div .img-responsive {
+    width: 100%;
+}
+
+.tab-img-right .img-responsive {
+    width: 100%;
+}
+
+.box-wrap {
+    margin: 0 0 30px 0;
+}
+
+.tab-img-right, .tab-img-left {
+    margin: 40px 0 0 0;
+}
+
+.line-chart {
+    height: 350px !important;
+}
+
+.canvasjs-chart-credit {
+    display: none;
+}
+
+.box-wrap:last-child {
+    margin: 0;
+}
+
+.our-mission-page .section-title {
+    margin:35px 0;
+}
+
+.tab-wrap .dvdr,
+.mission-page-content .dvdr {
+    background-color: #6ab43e;
+    margin: 20px 0;
+}
+
+.d-table .img-responsive {
+    margin: 0 0 25px 25px;
+}
+
+.mission-page-content {
+    margin: 0 0 50px 0;
+}
+
+.mission-page-content p a {
+    text-decoration: underline;
+    color: #3c2901;
+}
+
+.mission-sub-section .dvdr {
+    background-color: #7fbd5e;
+}
+
+.mission-ul li {
+    font-size: 15px;
+    list-style: none;
+    padding-left: 35px;
+    color: #3c2901;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 0 0 15px 0px;
+    position: relative;
+}
+
+.mission-ul li::after {
+    content: "";
+    background-image: url(../img/check.png);
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: left center;
+    width:16px;
+    height: 16px;
+}
+
+.mission-sub-ul li {
+    list-style-type: upper-latin;
+    padding-left: 0px;
+}
+
+.mission-sub-ul li::after, .mission-sub-ul-li::after {
+    display: none;
+}
+
+.tab-wrap .nav-pills .nav-link {
+    background-color: transparent;
+    color: #6ab43e;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid #6ab43e;
+    border-radius: 35px;
+    font-size: 14px;
+    padding: 10px 36px;
+    transition: all 0.6s ease 0s;
+}
+
+.tab-wrap .nav.nav-pills {
+    margin: 0 0 35px 0;
+}
+
+p {
+    font-size: 15px;
+    color: #3c2901;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 0 0 15px 0px;
+}
+
+.tab-wrap .nav-pills .nav-link.active {
+    background-color: #6ab43e;
+    color: #fff;
+    transition: all 0.6s ease 0s;
+}
+
+.tab-sections {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+}
+
+.mission-sec .btn-div {
+    margin: 50px 0 0 0;
+}
+
+.mission-ul {
+    padding: 0;
+}
+
+.green-italic-para {
+    color: #6ab43e;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 15px 0px;
+    font-style: italic;
+}
+
+.mission-sec {
+    padding: 70px 0;
+}
+
+.mission-sec .section-title {
+    min-height:auto;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border:1px solid #6ab43e;
+	transition: all 0.6s ease 0s;
+}
+
+.team-section {
+    padding: 60px 0 30px 0;
+}
+
+p.titl-tagline {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 15px;
+    color: #3c2901;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+p.g-title{
+    margin: 18px 0;
+    text-align: center;
+    font-size: 15px;
+    color: #3c2901;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.highcharts-subtitle
+{
+   padding-top:45;
+}
+
+.highcharts-credits tspan
+{
+    display:none;
+}
+
+
+
+
+.form-div label {
+    color: #3c2901;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.control-form, .form-control[readonly] {
+    border: 1px solid #dfdfdf;
+    border-radius: 0;
+    min-height: 42px;
+    background-color: #fff;
+}
+
+.form-div .form-group {
+    margin-bottom: 30px;
+}
+
+.form-note p {
+    font-size: 14px;
+    color: #3c2901;
+    margin: 0 0 30px 0;
+    font-weight: 500;
+}
+
+.note-ttl {
+    color: #6ab43e;
+    font-weight: 600;
+}
+
+.chartcon
+{
+   border:1px solid;
+   margin-bottom: 40px;
+   padding:25px;
+   border-color:  #cccccc ;
+   height: 600px;
+   
+
+}
+
+tspan {
+    font-size: 18px;
+   
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #313131;
+    padding: 50px 0 0 0;
+}
+
+footer h6 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.footer-top ul.menu-bottom, .footer-top ul.social-link {
+    padding: 0px;
+    margin: 0px;
+    column-count: 2;
+}
+
+.footer-top ul.menu-bottom li, .footer-top ul.social-link li {
+    padding-bottom: 8px;
+}
+
+.footer-top ul.menu-bottom li a {
+    position: relative;
+    padding-left: 15px;
+    color: #909090;
+    font-size: 14px;
+}
+
+.footer-top ul.menu-bottom li a {
+    position: relative;
+    padding-left: 15px;
+    color: #909090;
+    font-size: 14px;
+}
+
+.footer-top ul.social-link li a {
+    position: relative;
+    padding-left: 0px;
+    color: #909090;
+    font-size: 14px;
+}
+
+.copy-strip {
+    border-top: 1px solid #464646;
+    padding: 30px 0 30px 0;
+    color: #909090;
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer-bottom {
+    padding: 30px 0 0 0;
+}
+
+.footer-top ul.menu-bottom.col-count-1 {
+	column-count: 1;
+}
+
+.footer-top .social-link i {
+    width: 20px;
+}
+
+.footer-top ul.menu-bottom.col-count-1 li a:before {
+    display: none
+}
+
+.footer-top ul.menu-bottom li a:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f054";
+    font-size: 13px;
+    color: #909090;
+    font-weight: 900;
+    position: absolute;
+    left: 0px;
+    top:0;
+}
+
+.footer-top address {
+    line-height: 28px;
+    padding-bottom: 0px;
+    margin-bottom: 13px;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+.dvdr {
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+    margin:30px 0;
+}
+
+.round-look {
+	border-radius: 35px;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.green-bg {
+	background-color: #6ab43e;
+}
+
+.nav-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #2f2104;
+}
+
+.nav-link i {
+    color: #6ab43e;
+    margin: 0 10px 0 0;
+}
+
+li.nav-item {
+    margin: 0 15px 0 0;
+}
+
+li.nav-item:last-child {
+    margin: 0 0px 0 0;
+}
+
+.nav-strip-wrap .navbar.navbar-expand-lg {
+    padding: 10px 0;
+}
+
+.nav-strip-wrap {
+    background-color: #fff;
+}
+
+.nav-strip-wrap .navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0.5rem 0rem;
+	position: relative;
+	transition: all 0.6s ease 0s;
+}
+
+
+.paypal-section .dvdr,
+.credit-card .dvdr {
+    width: 60px;
+    height: 2px;
+    background-color: #6ab43e;
+    margin: 20px 0;
+}
+
+.paypal-section .section-title h2, 
+.credit-card .section-title h2 {
+	text-transform: capitalize;
+}
+
+.footer-top ul.menu-bottom.col-count-1 li a {
+    padding-left: 0px;
+}
+
+.footer-top ul.social-link li:nth-child(3) {
+    padding-bottom: 0;
+}
+
+.graph
+{
+    border:1px solid;
+}
+
+/*************** Custom Checkbox CSS Starts *****************/
+.cstm-rdio {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right:15px;
+  line-height: 1.6;
+}
+
+.min-height-42 {
+	min-height: 42px;
+}
+
+/* Hide the browser's default radio button */
+.cstm-rdio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.cstm-rdio .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 26px;
+  width: 26px;
+  background-color: #fff;
+  border-radius: 50%;
+  border:1px solid #dfdfdf;
+}
+
+/* On mouse-over, add a grey background color */
+.cstm-rdio:hover input ~ .checkmark {
+    background-color: #fff;
+    transition: all 0.6s ease 0s;
+}
+
+/* When the radio button is checked, add a blue background */
+.cstm-rdio input:checked ~ .checkmark {
+  background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.cstm-rdio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.cstm-rdio .checkmark:after {
+    top: 7px;
+    left: 7px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #3c2901;
+}
+/*************** Custom Checkbox CSS Ends *******************/
